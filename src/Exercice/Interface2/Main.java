@@ -36,7 +36,7 @@ public class Main {
 
         System.out.println("Parcelas: ");
         for (Installment installment : contract.getInstallments()){
-            System.out.println(installment.getDueDate() + " - " + installment.getValue());
+            System.out.println(installment);
         }
         sc.close();
     }

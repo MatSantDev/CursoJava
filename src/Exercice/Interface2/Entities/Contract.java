@@ -1,5 +1,6 @@
 package Exercice.Interface2.Entities;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -8,7 +9,7 @@ public class Contract {
     private Integer number;
     private Date date;
     private Double totalValue;
-    private List<Installment> installments;
+    private List<Installment> installments = new ArrayList<>();
 
     public Contract() {}
 
@@ -44,10 +45,6 @@ public class Contract {
 
     public List<Installment> getInstallments() {
         return installments;
-    }
-
-    public void setInstallments(List<Installment> installments) {
-        this.installments = installments;
     }
 
     @Override
