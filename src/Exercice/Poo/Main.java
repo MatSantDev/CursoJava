@@ -18,6 +18,7 @@ public class Main {
         System.out.print("Enter the number of tax payers: ");
         int n = sc.nextInt();
         sc.nextLine();
+        sc.nextLine();
 
         List<TaxPayer> taxPayers = new ArrayList<>();
         for (int i = 0; i < n; i++) {
